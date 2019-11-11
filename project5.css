@@ -1,0 +1,173 @@
+.menulist {
+    float:right !important;
+    padding-right:95px;
+}
+
+.menulist > li {
+    padding-right:10px;
+}
+
+.navbar {
+    background-color: #333;
+}
+
+a {
+    color:white !important;
+}
+
+.navbar-brand {
+    font-weight:700; 
+}
+
+.mainimage {
+    background-image:url('intro-bg.jpg');
+    height:930px;
+    background-repeat: no-repeat;
+    width:100%;
+    background-size:cover;
+    margin-top:-21px;
+}
+
+.headerh1 {
+    color:white;
+    text-align:center;
+    padding-top:200px;
+    font-size:7rem;
+}
+
+.headerh2 {
+    color:white;
+    text-align:center;
+    padding-top:30px;
+}
+
+.chooseush2 {
+    text-align:center;
+    padding:50px 0px 25px 0px;
+}
+
+.chooseusp {
+    text-align:center;
+    padding-bottom:30px;
+}
+
+.icon-content {
+    float:right;
+    max-width:180px;
+}
+
+.fa, .fas, .far {
+    padding:15px 0px 0px 35px;
+}
+
+.whoimage {
+    background-image:url('downloads-bg.jpg');
+    height:330px;
+    background-repeat: no-repeat;
+    width:100%;
+    background-size:cover;
+}
+
+.choosesection {
+    padding-bottom:100px;
+}
+
+.whoh2 {
+    color:white;
+    text-align:center;
+}
+
+.lead {
+    color:white;
+    text-align:center;
+}
+
+.btn {
+    color:black !important;
+    display: inline-block;
+}
+
+.who-section {
+    padding-top:100px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.clienth2 {
+    text-align:center;
+    padding: 70px 0px 20px 0px;
+}
+
+.list-inline {
+    padding-left:110px ;
+    padding-bottom:70px;
+}
+
+.contactsection {
+    background-color: #333;
+}
+
+.contacth2, .contactp {
+    text-align:center;
+    color:white;
+}
+
+.contacth2 {
+    padding-top:35px;
+}
+
+.list-inline-item {
+    display:inline-block;
+}
+
+.list-inline {
+    text-align:center;
+    padding-top:15px;
+}
+
+.footer {
+    text-align:center;
+    padding:50px 0px 20px 0px;
+}
+
+.fa-bars {
+    color:#fff; 
+    font-size:28px;
+}
+
+@media (min-width:350px) and (max-width:766px) {  /*mobile view*/
+    .icon-content{
+        float: none;
+        display:inline;
+    
+    }
+    .navbar-toggler { 
+        padding-bottom:40px !important;
+    }
+    h3, .icondiv{
+        text-align:center;
+    }
+    .icondiv {
+        padding-bottom:15px;
+    }
+}
+  
+@media (min-width:767px) and (max-width:993px) {   /*tablet view*/
+     .navbar-toggler { 
+        padding-bottom:40px !important;
+    }
+    .icondiv {
+        padding-left:190px !important;
+    }
+    .icon-content {
+        margin-right:100px !important;
+    }
+}
+   
+@media (min-width:994px) and (max-width:1198px) { 
+    .icon-content {
+        max-width:140px;
+    }
+}
