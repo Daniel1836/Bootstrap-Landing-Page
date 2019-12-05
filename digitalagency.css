@@ -26,21 +26,21 @@ a {
     background-position: center center;
     position:relative;
 }
-.headerh1 {
+.mainheadertop {
     color:white;
     text-align:center;
     font-size:7rem;
 }
-.headerh2 {
+.mainheaderinner {
     color:white;
     text-align:center;
     padding-top:30px;
 }
-.chooseush2 {
+.chooseusheader {
     text-align:center;
     padding:30px 0px 25px 0px;
 }
-.chooseusp {
+.chooseusinner {
     text-align:center;
     padding-bottom:30px;
 }
@@ -51,14 +51,14 @@ a {
 .fa, .fas, .far {
     padding:15px 0px 0px 35px;
 }
-.whoimage {
+.aboutimage {
     background-image:url('downloads-bg.jpg');
     height:330px;
     background-repeat: no-repeat;
     width:100%;
     background-size:cover;
 }
-.whoh2 {
+.aboutinner {
     color:white;
     text-align:center;
 }
@@ -73,18 +73,18 @@ a {
 .contact {
     text-align: center;
 }
-.clienth2 {
+.innerclient {
     text-align:center;
     padding: 30px 0px 20px 0px;
 }
 .contactsection {
     background-color: #333;
 }
-.contacth2, .contactp {
+.contactheader, .contactinner {
     text-align:center;
     color:white;
 }
-.contacth2 {
+.contactheader {
     padding-top:35px;
 }
 .list-inline-item {
@@ -106,16 +106,16 @@ a {
     position:absolute;
     top:170px;
 }
-.whoimage {
+.aboutimage {
     position:relative;
 }
-.who-section {
+.aboutsection {
     position:absolute;
     top:87px;
     left:60px;
 }
 .navdiv {
-    min-height:74px;
+    min-height:61px;
 }
 @media (min-width:350px) and (max-width:766px) {  /*mobile view*/
     .icon-content{
@@ -131,7 +131,7 @@ a {
     .icondiv {
         padding-bottom:15px;
     }
-    .icons {
+    .chooseusicons {
         padding-right:20px !important;
     }
     .google {
@@ -150,7 +150,7 @@ a {
         .navbar-toggler { 
         padding-bottom:40px !important;
     }
-       .icons {
+       .chooseusicons {
         position:absolute;
         left:150px;
     }
@@ -167,7 +167,7 @@ a {
     }
 }
 @media (min-width:994px){ /*desktop*/
-      .chooseus {
+      .chooseussection {
         height:450px;
         }
       .clientsection{
